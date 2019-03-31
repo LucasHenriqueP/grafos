@@ -1,13 +1,12 @@
 import json
+from classes.vertice import Vertice 
 
-vertice =  '[{ "name":"v1", "valor":30}, {"name": "v2", "valor":40}]'
-aresta = '{"digrafo": 0}[{"nome":"a0", "v0": "v1", "v1": "v2"}]'
+with open('exemplos.json') as f:
+    y = json.loads(f.read())
 
-# parse x:
-y = json.loads(vertice)
-x = json.loads(aresta)
+print(len(y["aresta"]))
 
-
-# the result is a JSON string:
-print(y[1]["name"])
-print(x[0]['v0'])
+v0 = Vertice("nome")
+print(v0.getGrauSaida())
+v0.addAresta(5)
+print(v0.getGrauSaida())
