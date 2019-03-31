@@ -1,15 +1,15 @@
 {
 "vertice":[
     {
-        "name":"v1",
+        "name":"Campo Mourão",
         "valor":30
     },
     {
-        "name": "v2",
+        "name": "Maringa",
         "valor":40
     },
     {
-        "name": "v3",
+        "name": "Perobal",
         "valor": 50
     }
         ],
@@ -17,13 +17,15 @@
 [   
     {
         "name":"a0", 
-        "v0": "v1",
-        "v1": "v2"
+        "v0": "Campo Mourão",
+        "v1": "Maringa",
+        "valor": 90
     },
     {
         "name":"a1",    
-        "v0": "v1",
-        "v1": "v3"
+        "v0": "Campo Mourão",
+        "v1": "Perobal",
+        "valor": 124
     }
 ]
 }
