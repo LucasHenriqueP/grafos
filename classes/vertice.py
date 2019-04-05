@@ -12,7 +12,7 @@ class Vertice:
 
     def getGrauEntrada(self):
         return self.__grauEntrada
-        
+
     def getGrauSaida(self):
         return self.__grauSaida
 
@@ -20,5 +20,4 @@ class Vertice:
         self.__grauEntrada += 1
 
     def __repr__(self):
-        return str("Vertice %s:" %(self.nome))    
-        
+        return str("Vertice %s: Valor: %s" %(self.nome,self.valor) )    
