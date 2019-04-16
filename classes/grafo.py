@@ -13,7 +13,7 @@ class Grafo:
         #Todo o codigo abaixo deve ir para a classe Grafo
         self.vertices = list() # talvez vire um vetor
         self.arestas = list()
-
+        '''
         for i in range(len(y['vertice'])):
             v0 = Vertice(y["vertice"][i])
             print(v0)
@@ -33,3 +33,4 @@ class Grafo:
 
 
         print(len(self.vertices[0].aresta))
+        '''
